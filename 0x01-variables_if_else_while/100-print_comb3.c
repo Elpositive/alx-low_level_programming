@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - print 0 to 99 without duplicate digits
+ * main - program entry point.
  *
- * return: 0 success, non-zero fail
- **/
+ * Return: Always 0
+ */
 
 int main(void)
 {
@@ -35,7 +35,6 @@ int main(void)
 		}
 		k++;
 	}
-
 	putchar('\n');
 
 	return (0);
